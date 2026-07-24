@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Obsidian
+GenericName=Knowledge Base
+Comment=Take linked notes in plain text Markdown files
+Exec=obsidian %u
+Icon=obsidian
+Terminal=false
+Type=Application
+Categories=Office;Utility;
+MimeType=x-scheme-handler/obsidian;
+StartupNotify=true
+StartupWMClass=obsidian
