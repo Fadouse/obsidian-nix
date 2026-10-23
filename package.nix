@@ -83,11 +83,11 @@ let
 in
 stdenv.mkDerivation (finalAttrs: {
   pname = "obsidian";
-  version = "1.12.7";
+  version = "1.14.5";
 
   src = fetchurl {
     url = "https://github.com/obsidianmd/obsidian-releases/releases/download/v${finalAttrs.version}/obsidian-${finalAttrs.version}.tar.gz";
-    hash = "sha256-/L4IsRHZwf2wm5wIlSsG4cgpxiFj66JYTEtOyFm+B50=";
+    hash = "sha256-G8ZUfIidfQLD8sW1WITLoUmAv6xK2jLAvcbsbbVCqvg=";
   };
 
   nativeBuildInputs = [
